@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>signup</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="" />
+  <link rel="stylesheet" href="../styles.css" />
+  <!-- <script src="../script.js"></script> -->
+  <style>
+    .signup-container {
+      display: flex;
+      width: 80%;
+      margin: 20px auto;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .img {
+      width: 600px;
+    }
+
+    .signup-container img {
+      width: 100%;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      width: 400px;
+      margin-top: 20px;
+      padding: 14px;
+      border-radius: 5px;
+      background: #689EBE;
+      /* box-sizing: border-box; */
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    form input {
+      padding: 12px;
+      /* outline: none; */
+      border: 1px solid #ddd;
+      width: 90%;
+      display: block;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="brand">
+      <a href="index.html">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="../index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+      <a href="/cart">My Cart</a>
+    </div>
+
+    <div class="humberger">
+          <div style="width: 36px; padding: 2px; background-color: white;"></div>
+          <div style="width: 36px; padding: 2px; background-color: white; margin-top: 4px;"></div>
+          <div style="width: 36px; padding: 2px; background-color: white; margin-top: 4px;"></div>
+    </div>
+  </nav>
+  <div class="signup-container">
+    <div class="img">
+      <img src="./signup.jpg" alt="signupimage">
+    </div>
+
+
+    <form>
+      <h2 style="padding: 0px; margin: 10px; color:white;">Sign Up Here !!</h2>
+
+      <input type="text" name="name" id="name" placeholder="Enter your full Name">
+      <input type="email" name="email" id="email" placeholder="Enter valid email address">
+      <input type="number" name="number" id="number" placeholder="Enter your mobile number">
+      <input type="password" name="password" id="password" placeholder="Enter your password">
+      <p style="padding: 0px; margin: 5px; text-decoration: none; font-size: 14px; font-weight: 500; font-family: Arial, Helvetica, sans-serif;">If you are not Login? <a href="" style="text-decoration: none;">Login Here</a> </p>
+      <!-- <button style="padding: 12px; background-color: black; color: white; border: none; border-radius: 5px; width: 90%;">SignUp</button> -->
+      <button style="padding: 12px; font-size: 15px; font-family: Arial, Helvetica, sans-serif; font-weight: 600; background-color: black; color: white; border: none; border-radius: 5px; width: 90%;">SignUp</button>
+      <div>
+          <a href="#">forgot password</a>
+      </div>
+    </form>
+
+
+
+  </div>
+
+  
+  <script src="script.js" async defer></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+#container{
+     display: flex;
+     width:80%;
+     justify-content: center;
+     align-items: flex-start;
+     margin:30px auto;
+     padding: 20px;
+     flex-wrap: wrap;
+     gap:20px;
+     border-radius: 6px;
+     background-image: linear-gradient(to left,#2970FA,#6A12CC);
+     
+}
+
+.cart-container{
+     width: 65%;
+     /* border: 1px solid red; */
+     /* min-height: 100vh; */
+     background: white;
+     padding: 18px;
+     border-radius: 5px;
+     box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+.amount-parent{
+      width: 30%;
+      /* padding: 20px; */
+      border-radius: 6px;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+      background: white;
+}
+
+.amount{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    gap:20px;
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(0,0,0,0.95)
+}
+
+.amount button{
+
+    padding: 14px;
+    color:white;
+    background: #3B71CA;
+    border-radius: 6px;
+    border: none;
+}
+
+.cart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 50px;
+    padding: 20px 3px 20px 3px;
+}
+
+.cart .img{
+    width: 100px;
+    box-sizing: border-box;
+    background: #F1F1F1;
+    object-fit: cover;
+    height: 140px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.cart .img img{
+    width: 100%;
+   
+}
+
+.cart-btn button{
+    padding: 10px 20px 10px 20px;
+    color:white;
+    background: #2970FA;
+    border-radius: 5px;
+    border: none;
+
+}
+
+@media(max-width:768px){
+    .amount-parent{
+        width:100%;
+    }
+
+    .cart-container{
+        width: 100%;
+    }
+}
